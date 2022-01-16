@@ -52,6 +52,9 @@
         height:50vh;
         font-size:4rem;
     }
+    footer {
+        height: 40vh;
+    }
 }
 /* mobile */
 @media (max-width: 668px) {
