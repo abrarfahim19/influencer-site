@@ -1,0 +1,103 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding: 5px 0px;
+    }
+}
+
+
+/* tab */
+@media (max-width: 992px) {
+
+    #site-logo{
+        padding-left: 10px;
+        font-size: 40px;
+    }
+    .top-area {
+        grid-template-columns: repeat(2, 1fr);
+        height: fit-content;
+        width: 100%;
+    }
+    .top-text-area {
+        width: 100%;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .top-text-area .title {
+        font-weight: 400;
+        font-size: 42px;
+    }
+    .top-text-area p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.8;
+        margin: 10px 0;
+    }
+    .big-btn {
+        margin: 0px;
+    }
+    .top-image {
+        width: auto;
+        margin-top: 50px ;
+    }
+    .products-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .products .pagination-btn {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .bonus{
+        height:50vh;
+        font-size:4rem;
+    }
+}
+/* mobile */
+@media (max-width: 668px) {
+    .top-area {
+        grid-template-columns: 1fr;
+        height: fit-content;
+        width: 100%;
+    }
+    .top-text-area {
+        width: 100%;
+        text-align: center;
+    }
+    .top-text-area .title {
+        font-weight: 300;
+        font-size: 32px;
+    }
+    .top-text-area p {
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 1.8;
+        margin: 10px 0;
+    }
+    .big-btn {
+        margin: 0 auto;
+    }
+    .top-image {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .products-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .products .pagination-btn {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .products-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bonus{
+        height:30vh;
+        font-size:3rem;
+    }
+}

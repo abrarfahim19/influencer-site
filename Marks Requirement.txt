@@ -9,8 +9,7 @@
 6.Footer Copyright sign and 3 logo
 
 Bonus Mark:
-1. Additonal Tag
+1. Additonal Section
 2. Color
 3. Google Font
 4. Semantic Tag
-5. 

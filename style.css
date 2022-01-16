@@ -1,0 +1,317 @@
+/* body styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Moon+Dance&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header styles */
+
+#site-logo{
+    font-size: 30px;
+    color:#E02C6D
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.special {
+    color: slateblue;
+}
+
+
+nav {
+    display: flex;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto 50px auto;
+    padding: 0 10px;
+}
+
+.top-area {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    width: 900px;
+}
+
+.top-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 582px;
+}
+
+.top-text-area .title {
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.top-text-area p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 10px 0;
+  }
+
+
+.big-btn {
+    border: none;
+    background: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    box-shadow: 2px 2px 2px grey;
+    position: relative;
+}
+
+.big-btn:hover {
+    top: 3px;
+    background-color: slateblue;
+}
+
+.top-image {
+    width: 440px;
+    height: 414px;
+    overflow: hidden;
+}
+
+.top-image img {
+    width: 100%;
+}
+
+.top-image:hover {
+    display: block;
+    transform: scale(0.8) rotate(360deg);
+    transition: transform 3s ease-out;
+}
+
+/* main product styling */
+
+#main {
+    position: relative;
+}
+
+.products {
+    position: relative;
+    padding-top: 70px;
+}
+
+.products .pagination-btn {
+    color: #E02C6D;
+    padding: 20px 0px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.pagination-btn i {
+    font-size: 20px;
+}
+
+.products-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 75px;
+    color: #3A3A3A;
+    margin-bottom: 10px;
+}
+
+.products-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    position: relative;
+}
+
+.products-content .product {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(19, 19, 19, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product .detail {
+    position: relative;
+    padding: 20px;
+}
+
+.detail .name {
+    font-size: 20px;
+}
+
+.detail .price {
+    color: slateblue;
+    display: block;
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+.detail .price-ratings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail .ratings {
+    display: flex;
+    align-items: center;
+
+}
+
+.ratings .stars i {
+    color: goldenrod;
+}
+
+.ratings .num {
+    margin-left: 10px;
+    color: rgb(93, 93, 93);
+}
+
+p.details {
+    font-size: 10px;
+    margin: 5px 0px;
+    color: #344;
+}
+
+/* footer part styling */
+
+#footer {
+    padding: 5px 0px;
+    text-align: center;
+    background: #060514;
+    position: relative;
+}
+
+.footer-container .footer-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.footer-container .copyright {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: whitesmoke;
+}
+
+.footer-container .social {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.social i {
+    color: white;
+}
+
+.social a {
+    display: block;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #E02C6D;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/* bonus section styling inspired from CODEPEN sampling */
+
+.bonus{
+        display:flex;
+        align-items:center;
+        font-family:sans-serif;
+        flex-direction:column;
+        height:75vh;
+        font-size:6rem;
+        -webkit-text-stroke: 1px white;
+        -webkit-text-fill-color: black;
+        background:black;
+        width:100%;
+        overflow-x:hidden;
+        justify-content:center;
+}
+
+.l{
+    width:fit-content;
+    white-space:nowrap;
+    animation: for-l 10s linear 0.5s infinite;
+}
+.r{
+    width:fit-content;
+    white-space:nowrap;
+    animation: for-r 10s linear 0.5s infinite;
+}
+  
+@keyframes for-l {
+    0% {      
+      margin-right:0%;
+      opacity:0%;
+   }
+    10%{
+      opacity:100%;
+    }
+    90%{
+      opacity:100%;
+    }
+    100% {
+      margin-right:-100%;
+      opacity:0%;
+   }
+}
+@keyframes for-r {
+    0% {      
+      margin-left:0%;
+      opacity:0%;
+   }
+    10%{
+      opacity:100%;
+    }
+    90%{
+      opacity:100%;
+    }
+    100% {
+      margin-left:-100%;
+      opacity:0%;
+    }
+}
